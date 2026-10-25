@@ -1,16 +1,21 @@
-# React + Vite
+# Portafolio Interactivo 3D | Juan Martín (Mitin)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el repositorio de mi portafolio web usando modelos 3D. Lo he diseñado integrando una experiencia visual inmersiva en el frontend. El principal atractivo es un Header interactivo construido con modelos 3D, animaciones fluidas y geometrías que reaccionan al cursor, todo renderizado en tiempo real.
+El proyecto no es el portafolio final personal, es un trabajo realizado para la clase desarrollo web en mi universidad.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Hero 3D Interactivo:** Integración de un modelo 3D animado (formato FBX) para dar vida a la pantalla de bienvenida.
+* **Geometría Reactiva:** Partículas flotantes (icosaedros) animadas mediante el ciclo de renderizado (`useFrame`) que levitan, rotan y cambian de escala y color al interactuar con el mouse.
+* **Iluminación Personalizada:** Configuración de luces ambientales, direccionales y de punto (PointLights) para resaltar el modelo con mi paleta de colores.
+* **Diseño Responsivo:** Layout adaptativo usando Tailwind CSS y Flexbox/Grid para asegurar una experiencia fluida tanto en escritorio (pantalla dividida 50/50) como en dispositivos móviles (apilado vertical).
+* **Navegación Fluida:** Barra de navegación superior fija con menú hamburguesa y smooth scrolling hacia las secciones "Sobre Mí", "Proyectos" y "Contacto".
+* **Tipografía Híbrida:** Contraste entre fuentes modernas sans-serif para la legibilidad y tipografía estilo 8-bits (`Press Start 2P`) para los encabezados.
 
-## React Compiler
+## Tecnologías Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Core:** React, Vite, JavaScript
+* **Estilos:** Tailwind CSS, CSS3 modular por componente
+* **Renderizado 3D:** Three.js, React Three Fiber (`@react-three/fiber`), Drei (`@react-three/drei`)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Made with ❤️ by Mitin726
