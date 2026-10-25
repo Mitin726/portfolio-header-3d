@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: '#121212',
-        surface: '#1E1E1E',
-        primary: '#1D4ED8',
-        textPrimary: '#F8FAFC',
-        textSecondary: '#94A3B8',
-        accent: '#9333EA',
-        border: '#334155',
+        background: '#F8FAFC',
+        surface: '#FFFFFF',
+        primary: '#1D2D2B',
+        textPrimary: '#0F172A',
+        textSecondary: '#64748B',
+        accent: '#5C646B',
+        border: '#E2E8F0',
       },
       fontFamily: {
         minecraft: ['"Press Start 2P"', 'cursive'],
